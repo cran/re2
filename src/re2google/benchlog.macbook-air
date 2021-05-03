@@ -1,0 +1,330 @@
+==BENCHMARK== macbook-air.home Tue Apr 13 11:18:38 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_CachedRE2/8	20000000	        99 ns/op	  80.58 MB/s
+Search_Easy0_CachedRE2/16	20000000	        99 ns/op	 161.48 MB/s
+Search_Easy0_CachedRE2/32	20000000	       103 ns/op	 309.63 MB/s
+Search_Easy0_CachedRE2/64	20000000	       105 ns/op	 608.76 MB/s
+Search_Easy0_CachedRE2/128	20000000	       102 ns/op	1250.58 MB/s
+Search_Easy0_CachedRE2/256	20000000	        99 ns/op	2567.44 MB/s
+Search_Easy0_CachedRE2/512	20000000	        98 ns/op	5212.82 MB/s
+Search_Easy0_CachedRE2/1K	20000000	        99 ns/op	10301.49 MB/s
+Search_Easy0_CachedRE2/2K	20000000	        97 ns/op	20961.17 MB/s
+Search_Easy0_CachedRE2/4K	20000000	        98 ns/op	41382.72 MB/s
+Search_Easy0_CachedRE2/8K	20000000	        99 ns/op	82739.72 MB/s
+Search_Easy0_CachedRE2/16K	20000000	        98 ns/op	166359.85 MB/s
+Search_Easy0_CachedRE2/32K	20000000	        98 ns/op	332590.16 MB/s
+Search_Easy0_CachedRE2/64K	20000000	        98 ns/op	668222.58 MB/s
+Search_Easy0_CachedRE2/128K	20000000	        98 ns/op	1335495.04 MB/s
+Search_Easy0_CachedRE2/256K	20000000	        98 ns/op	2650562.73 MB/s
+Search_Easy0_CachedRE2/512K	20000000	        98 ns/op	5343203.66 MB/s
+Search_Easy0_CachedRE2/1M	20000000	        98 ns/op	10671447.82 MB/s
+Search_Easy0_CachedRE2/2M	20000000	       100 ns/op	20949569.89 MB/s
+Search_Easy0_CachedRE2/4M	20000000	        99 ns/op	42232063.40 MB/s
+Search_Easy0_CachedRE2/8M	20000000	       100 ns/op	83835291.28 MB/s
+Search_Easy0_CachedRE2/16M	20000000	        97 ns/op	171371572.16 MB/s
+Search_Easy1_CachedRE2/8	20000000	       101 ns/op	  79.02 MB/s
+Search_Easy1_CachedRE2/16	20000000	        98 ns/op	 162.44 MB/s
+Search_Easy1_CachedRE2/32	20000000	        98 ns/op	 324.23 MB/s
+Search_Easy1_CachedRE2/64	20000000	        98 ns/op	 647.06 MB/s
+Search_Easy1_CachedRE2/128	20000000	        99 ns/op	1288.12 MB/s
+Search_Easy1_CachedRE2/256	20000000	        98 ns/op	2590.02 MB/s
+Search_Easy1_CachedRE2/512	20000000	        98 ns/op	5210.67 MB/s
+Search_Easy1_CachedRE2/1K	20000000	        96 ns/op	10632.92 MB/s
+Search_Easy1_CachedRE2/2K	20000000	        96 ns/op	21293.33 MB/s
+Search_Easy1_CachedRE2/4K	20000000	        96 ns/op	42391.51 MB/s
+Search_Easy1_CachedRE2/8K	20000000	        97 ns/op	83611.28 MB/s
+Search_Easy1_CachedRE2/16K	20000000	        99 ns/op	164672.28 MB/s
+Search_Easy1_CachedRE2/32K	20000000	        96 ns/op	340940.76 MB/s
+Search_Easy1_CachedRE2/64K	20000000	        95 ns/op	683306.88 MB/s
+Search_Easy1_CachedRE2/128K	20000000	        95 ns/op	1369418.34 MB/s
+Search_Easy1_CachedRE2/256K	20000000	        99 ns/op	2635547.98 MB/s
+Search_Easy1_CachedRE2/512K	20000000	        98 ns/op	5349329.45 MB/s
+Search_Easy1_CachedRE2/1M	20000000	        97 ns/op	10712491.60 MB/s
+Search_Easy1_CachedRE2/2M	20000000	        96 ns/op	21813320.69 MB/s
+Search_Easy1_CachedRE2/4M	20000000	        98 ns/op	42548011.63 MB/s
+Search_Easy1_CachedRE2/8M	20000000	        96 ns/op	86775512.31 MB/s
+Search_Easy1_CachedRE2/16M	20000000	        98 ns/op	170663948.13 MB/s
+Search_Medium_CachedRE2/8	20000000	       104 ns/op	  76.51 MB/s
+Search_Medium_CachedRE2/16	20000000	       106 ns/op	 149.57 MB/s
+Search_Medium_CachedRE2/32	20000000	       108 ns/op	 294.64 MB/s
+Search_Medium_CachedRE2/64	20000000	       109 ns/op	 582.44 MB/s
+Search_Medium_CachedRE2/128	20000000	       114 ns/op	1121.67 MB/s
+Search_Medium_CachedRE2/256	20000000	       107 ns/op	2372.60 MB/s
+Search_Medium_CachedRE2/512	20000000	       113 ns/op	4530.64 MB/s
+Search_Medium_CachedRE2/1K	20000000	       107 ns/op	9547.24 MB/s
+Search_Medium_CachedRE2/2K	20000000	       111 ns/op	18331.40 MB/s
+Search_Medium_CachedRE2/4K	20000000	       109 ns/op	37308.08 MB/s
+Search_Medium_CachedRE2/8K	20000000	       112 ns/op	72753.28 MB/s
+Search_Medium_CachedRE2/16K	20000000	       110 ns/op	148724.69 MB/s
+Search_Medium_CachedRE2/32K	20000000	       109 ns/op	299070.38 MB/s
+Search_Medium_CachedRE2/64K	20000000	       108 ns/op	603925.94 MB/s
+Search_Medium_CachedRE2/128K	20000000	       109 ns/op	1202427.45 MB/s
+Search_Medium_CachedRE2/256K	20000000	       107 ns/op	2432839.39 MB/s
+Search_Medium_CachedRE2/512K	20000000	       112 ns/op	4642170.51 MB/s
+Search_Medium_CachedRE2/1M	20000000	       107 ns/op	9750216.10 MB/s
+Search_Medium_CachedRE2/2M	20000000	       106 ns/op	19611323.66 MB/s
+Search_Medium_CachedRE2/4M	20000000	       106 ns/op	39399913.82 MB/s
+Search_Medium_CachedRE2/8M	20000000	       107 ns/op	78176034.54 MB/s
+Search_Medium_CachedRE2/16M	20000000	       108 ns/op	154310597.22 MB/s
+Search_Hard_CachedRE2/8	20000000	       101 ns/op	  79.20 MB/s
+Search_Hard_CachedRE2/16	20000000	       102 ns/op	 156.42 MB/s
+Search_Hard_CachedRE2/32	20000000	       100 ns/op	 318.65 MB/s
+Search_Hard_CachedRE2/64	20000000	        97 ns/op	 653.69 MB/s
+Search_Hard_CachedRE2/128	20000000	        98 ns/op	1298.64 MB/s
+Search_Hard_CachedRE2/256	20000000	        98 ns/op	2604.64 MB/s
+Search_Hard_CachedRE2/512	20000000	        98 ns/op	5204.45 MB/s
+Search_Hard_CachedRE2/1K	20000000	        99 ns/op	10307.27 MB/s
+Search_Hard_CachedRE2/2K	20000000	        98 ns/op	20759.08 MB/s
+Search_Hard_CachedRE2/4K	20000000	        98 ns/op	41418.98 MB/s
+Search_Hard_CachedRE2/8K	20000000	        98 ns/op	83025.69 MB/s
+Search_Hard_CachedRE2/16K	20000000	        97 ns/op	167408.31 MB/s
+Search_Hard_CachedRE2/32K	20000000	        98 ns/op	331167.23 MB/s
+Search_Hard_CachedRE2/64K	20000000	        99 ns/op	659318.57 MB/s
+Search_Hard_CachedRE2/128K	20000000	        99 ns/op	1323699.60 MB/s
+Search_Hard_CachedRE2/256K	20000000	       102 ns/op	2569263.15 MB/s
+Search_Hard_CachedRE2/512K	20000000	       100 ns/op	5237056.84 MB/s
+Search_Hard_CachedRE2/1M	20000000	        99 ns/op	10550957.45 MB/s
+Search_Hard_CachedRE2/2M	20000000	        98 ns/op	21274450.05 MB/s
+Search_Hard_CachedRE2/4M	20000000	        99 ns/op	42110517.51 MB/s
+Search_Hard_CachedRE2/8M	20000000	       127 ns/op	65747648.92 MB/s
+Search_Hard_CachedRE2/16M	20000000	       102 ns/op	163156262.69 MB/s
+Search_Fanout_CachedRE2/8	20000000	       124 ns/op	  64.20 MB/s
+Search_Fanout_CachedRE2/16	20000000	       143 ns/op	 111.18 MB/s
+Search_Fanout_CachedRE2/32	10000000	       190 ns/op	 168.01 MB/s
+Search_Fanout_CachedRE2/64	10000000	       272 ns/op	 235.13 MB/s
+Search_Fanout_CachedRE2/128	 5000000	       439 ns/op	 291.13 MB/s
+Search_Fanout_CachedRE2/256	 2000000	       773 ns/op	 330.90 MB/s
+Search_Fanout_CachedRE2/512	 1000000	      1423 ns/op	 359.71 MB/s
+Search_Fanout_CachedRE2/1K	 1000000	      2796 ns/op	 366.11 MB/s
+Search_Fanout_CachedRE2/2K	  500000	      5451 ns/op	 375.70 MB/s
+Search_Fanout_CachedRE2/4K	  200000	     10535 ns/op	 388.77 MB/s
+Search_Fanout_CachedRE2/8K	  100000	     22080 ns/op	 371.01 MB/s
+Search_Fanout_CachedRE2/16K	   50000	     42548 ns/op	 385.07 MB/s
+Search_Fanout_CachedRE2/32K	   20000	     85493 ns/op	 383.28 MB/s
+Search_Fanout_CachedRE2/64K	   10000	    169014 ns/op	 387.75 MB/s
+Search_Fanout_CachedRE2/128K	    5000	    333310 ns/op	 393.24 MB/s
+Search_Fanout_CachedRE2/256K	    5000	    656618 ns/op	 399.23 MB/s
+Search_Fanout_CachedRE2/512K	    2000	   1320207 ns/op	 397.13 MB/s
+Search_Fanout_CachedRE2/1M	    1000	   2709395 ns/op	 387.01 MB/s
+Search_Fanout_CachedRE2/2M	     500	   5512590 ns/op	 380.43 MB/s
+Search_Fanout_CachedRE2/4M	     100	  10835152 ns/op	 387.10 MB/s
+Search_Fanout_CachedRE2/8M	     100	  21654193 ns/op	 387.39 MB/s
+Search_Fanout_CachedRE2/16M	      50	  42917503 ns/op	 390.92 MB/s
+Search_Parens_CachedRE2/8	20000000	        97 ns/op	  82.12 MB/s
+Search_Parens_CachedRE2/16	20000000	        98 ns/op	 162.38 MB/s
+Search_Parens_CachedRE2/32	20000000	       101 ns/op	 316.41 MB/s
+Search_Parens_CachedRE2/64	20000000	        99 ns/op	 641.69 MB/s
+Search_Parens_CachedRE2/128	20000000	        98 ns/op	1296.10 MB/s
+Search_Parens_CachedRE2/256	20000000	        98 ns/op	2611.24 MB/s
+Search_Parens_CachedRE2/512	20000000	        98 ns/op	5178.36 MB/s
+Search_Parens_CachedRE2/1K	20000000	        98 ns/op	10390.23 MB/s
+Search_Parens_CachedRE2/2K	20000000	        98 ns/op	20721.39 MB/s
+Search_Parens_CachedRE2/4K	20000000	        99 ns/op	41147.51 MB/s
+Search_Parens_CachedRE2/8K	20000000	        98 ns/op	83180.41 MB/s
+Search_Parens_CachedRE2/16K	20000000	        97 ns/op	167688.34 MB/s
+Search_Parens_CachedRE2/32K	20000000	        98 ns/op	333402.66 MB/s
+Search_Parens_CachedRE2/64K	20000000	       104 ns/op	624318.65 MB/s
+Search_Parens_CachedRE2/128K	20000000	       102 ns/op	1277558.72 MB/s
+Search_Parens_CachedRE2/256K	20000000	       101 ns/op	2584682.52 MB/s
+Search_Parens_CachedRE2/512K	20000000	        99 ns/op	5248425.71 MB/s
+Search_Parens_CachedRE2/1M	20000000	        99 ns/op	10585509.49 MB/s
+Search_Parens_CachedRE2/2M	20000000	        98 ns/op	21305013.01 MB/s
+Search_Parens_CachedRE2/4M	20000000	        99 ns/op	42241863.99 MB/s
+Search_Parens_CachedRE2/8M	20000000	       102 ns/op	81811282.31 MB/s
+Search_Parens_CachedRE2/16M	20000000	        99 ns/op	169379500.66 MB/s
+Search_BigFixed_CachedRE2/8	20000000	        83 ns/op	  95.36 MB/s
+Search_BigFixed_CachedRE2/16	20000000	       140 ns/op	 113.76 MB/s
+Search_BigFixed_CachedRE2/32	10000000	       165 ns/op	 193.17 MB/s
+Search_BigFixed_CachedRE2/64	10000000	       213 ns/op	 299.88 MB/s
+Search_BigFixed_CachedRE2/128	10000000	       299 ns/op	 427.95 MB/s
+Search_BigFixed_CachedRE2/256	 5000000	       467 ns/op	 547.80 MB/s
+Search_BigFixed_CachedRE2/512	 2000000	       838 ns/op	 610.81 MB/s
+Search_BigFixed_CachedRE2/1K	 1000000	      1566 ns/op	 653.89 MB/s
+Search_BigFixed_CachedRE2/2K	 1000000	      2919 ns/op	 701.43 MB/s
+Search_BigFixed_CachedRE2/4K	  500000	      5732 ns/op	 714.53 MB/s
+Search_BigFixed_CachedRE2/8K	  200000	     11037 ns/op	 742.19 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:26:08 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_CachedRE2/8	20000000	        99 ns/op	  80.02 MB/s
+Search_Easy0_CachedRE2/16	20000000	        97 ns/op	 164.65 MB/s
+Search_Easy0_CachedRE2/32	20000000	        96 ns/op	 330.11 MB/s
+Search_Easy0_CachedRE2/64	20000000	        96 ns/op	 660.19 MB/s
+Search_Easy0_CachedRE2/128	20000000	        96 ns/op	1324.25 MB/s
+Search_Easy0_CachedRE2/256	20000000	        97 ns/op	2635.21 MB/s
+Search_Easy0_CachedRE2/512	20000000	        97 ns/op	5227.54 MB/s
+Search_Easy0_CachedRE2/1K	20000000	        97 ns/op	10518.18 MB/s
+Search_Easy0_CachedRE2/2K	20000000	        97 ns/op	21074.86 MB/s
+Search_Easy0_CachedRE2/4K	20000000	        97 ns/op	42057.51 MB/s
+Search_Easy0_CachedRE2/8K	20000000	        97 ns/op	84319.12 MB/s
+Search_Easy0_CachedRE2/16K	20000000	        97 ns/op	168658.45 MB/s
+Search_Easy0_CachedRE2/32K	20000000	        96 ns/op	338003.47 MB/s
+Search_Easy0_CachedRE2/64K	20000000	        97 ns/op	669854.34 MB/s
+Search_Easy0_CachedRE2/128K	20000000	        97 ns/op	1347354.19 MB/s
+Search_Easy0_CachedRE2/256K	20000000	        97 ns/op	2688110.11 MB/s
+Search_Easy0_CachedRE2/512K	20000000	        97 ns/op	5373691.73 MB/s
+Search_Easy0_CachedRE2/1M	20000000	        98 ns/op	10669347.93 MB/s
+Search_Easy0_CachedRE2/2M	20000000	        97 ns/op	21514820.93 MB/s
+Search_Easy0_CachedRE2/4M	20000000	        97 ns/op	43069764.73 MB/s
+Search_Easy0_CachedRE2/8M	20000000	        97 ns/op	86232407.28 MB/s
+Search_Easy0_CachedRE2/16M	20000000	        97 ns/op	171503050.04 MB/s
+Search_Easy1_CachedRE2/8	20000000	        96 ns/op	  83.16 MB/s
+Search_Easy1_CachedRE2/16	20000000	        96 ns/op	 166.11 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:28:04 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_CachedRE2/8	10000000	       100 ns/op	  79.44 MB/s
+Search_Easy0_CachedRE2/16	20000000	       100 ns/op	 158.95 MB/s
+Search_Easy0_CachedRE2/32	20000000	       100 ns/op	 319.36 MB/s
+Search_Easy0_CachedRE2/64	20000000	       107 ns/op	 594.99 MB/s
+Search_Easy0_CachedRE2/128	20000000	        99 ns/op	1285.73 MB/s
+Search_Easy0_CachedRE2/256	20000000	       100 ns/op	2545.05 MB/s
+Search_Easy0_CachedRE2/512	20000000	       100 ns/op	5085.13 MB/s
+Search_Easy0_CachedRE2/1K	20000000	       102 ns/op	10017.74 MB/s
+Search_Easy0_CachedRE2/2K	20000000	       107 ns/op	19091.45 MB/s
+Search_Easy0_CachedRE2/4K	20000000	       101 ns/op	40484.43 MB/s
+Search_Easy0_CachedRE2/8K	20000000	        98 ns/op	83028.88 MB/s
+Search_Easy0_CachedRE2/16K	20000000	       101 ns/op	162119.21 MB/s
+Search_Easy0_CachedRE2/32K	20000000	       101 ns/op	322046.44 MB/s
+Search_Easy0_CachedRE2/64K	20000000	       100 ns/op	652020.39 MB/s
+Search_Easy0_CachedRE2/128K	20000000	       100 ns/op	1300700.20 MB/s
+Search_Easy0_CachedRE2/256K	20000000	       101 ns/op	2577365.26 MB/s
+Search_Easy0_CachedRE2/512K	20000000	       103 ns/op	5057455.65 MB/s
+Search_Easy0_CachedRE2/1M	20000000	       102 ns/op	10216129.29 MB/s
+Search_Easy0_CachedRE2/2M	20000000	        99 ns/op	21134211.52 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:28:51 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_UnCachedRE2/8	   50000	     38133 ns/op	   0.21 MB/s
+Search_Easy0_UnCachedRE2/16	   50000	     37716 ns/op	   0.42 MB/s
+Search_Easy0_UnCachedRE2/32	   50000	     37833 ns/op	   0.85 MB/s
+Search_Easy0_UnCachedRE2/64	   50000	     39050 ns/op	   1.64 MB/s
+Search_Easy0_UnCachedRE2/128	   50000	     37881 ns/op	   3.38 MB/s
+Search_Easy0_UnCachedRE2/256	   50000	     37960 ns/op	   6.74 MB/s
+Search_Easy0_UnCachedRE2/512	   50000	     37956 ns/op	  13.49 MB/s
+Search_Easy0_UnCachedRE2/1K	   50000	     37546 ns/op	  27.27 MB/s
+Search_Easy0_UnCachedRE2/2K	   50000	     37823 ns/op	  54.15 MB/s
+Search_Easy0_UnCachedRE2/4K	   50000	     37806 ns/op	 108.34 MB/s
+Search_Easy0_UnCachedRE2/8K	   50000	     37878 ns/op	 216.27 MB/s
+Search_Easy0_UnCachedRE2/16K	   50000	     37700 ns/op	 434.58 MB/s
+Search_Easy0_UnCachedRE2/32K	   50000	     39081 ns/op	 838.46 MB/s
+Search_Easy0_UnCachedRE2/64K	   50000	     39751 ns/op	1648.63 MB/s
+Search_Easy0_UnCachedRE2/128K	   50000	     38213 ns/op	3429.95 MB/s
+Search_Easy0_UnCachedRE2/256K	   50000	     38328 ns/op	6839.41 MB/s
+Search_Easy0_UnCachedRE2/512K	   50000	     39596 ns/op	13240.66 MB/s
+Search_Easy0_UnCachedRE2/1M	   50000	     37915 ns/op	27655.93 MB/s
+Search_Easy0_UnCachedRE2/2M	   50000	     37945 ns/op	55267.33 MB/s
+Search_Easy0_UnCachedRE2/4M	   50000	     38135 ns/op	109984.15 MB/s
+Search_Easy0_UnCachedRE2/8M	   50000	     39868 ns/op	210407.74 MB/s
+Search_Easy0_UnCachedRE2/16M	   50000	     39681 ns/op	422801.88 MB/s
+Search_Easy1_CachedRE2/8	20000000	        99 ns/op	  80.39 MB/s
+Search_Easy1_CachedRE2/16	20000000	       101 ns/op	 158.25 MB/s
+Search_Easy1_CachedRE2/32	20000000	       100 ns/op	 318.73 MB/s
+Search_Easy1_CachedRE2/64	20000000	       100 ns/op	 639.72 MB/s
+Search_Easy1_CachedRE2/128	20000000	       101 ns/op	1255.95 MB/s
+Search_Easy1_CachedRE2/256	20000000	       100 ns/op	2542.62 MB/s
+Search_Easy1_CachedRE2/512	20000000	        99 ns/op	5159.22 MB/s
+Search_Easy1_CachedRE2/1K	20000000	       115 ns/op	8887.34 MB/s
+Search_Easy1_CachedRE2/2K	20000000	       100 ns/op	20423.89 MB/s
+Search_Easy1_CachedRE2/4K	20000000	       100 ns/op	40760.37 MB/s
+Search_Easy1_CachedRE2/8K	20000000	        99 ns/op	82396.55 MB/s
+Search_Easy1_CachedRE2/16K	20000000	        99 ns/op	164039.05 MB/s
+Search_Easy1_CachedRE2/32K	20000000	        98 ns/op	331136.88 MB/s
+Search_Easy1_CachedRE2/64K	20000000	        98 ns/op	662307.98 MB/s
+Search_Easy1_CachedRE2/128K	20000000	        96 ns/op	1357758.75 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:31:18 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_UnCachedRE2/8	   50000	     39292 ns/op	   0.20 MB/s
+Search_Easy0_UnCachedRE2/16	   50000	     39039 ns/op	   0.41 MB/s
+Search_Easy0_UnCachedRE2/32	   50000	     39207 ns/op	   0.82 MB/s
+Search_Easy0_UnCachedRE2/64	   50000	     38925 ns/op	   1.64 MB/s
+Search_Easy0_UnCachedRE2/128	   50000	     38898 ns/op	   3.29 MB/s
+Search_Easy0_UnCachedRE2/256	   50000	     41166 ns/op	   6.22 MB/s
+Search_Easy0_UnCachedRE2/512	   50000	     39020 ns/op	  13.12 MB/s
+Search_Easy0_UnCachedRE2/1K	   50000	     38197 ns/op	  26.81 MB/s
+Search_Easy0_UnCachedRE2/2K	   50000	     37482 ns/op	  54.64 MB/s
+Search_Easy0_UnCachedRE2/4K	   50000	     37796 ns/op	 108.37 MB/s
+Search_Easy0_UnCachedRE2/8K	   50000	     38455 ns/op	 213.03 MB/s
+Search_Easy0_UnCachedRE2/16K	   50000	     41033 ns/op	 399.29 MB/s
+Search_Easy0_UnCachedRE2/32K	   50000	     38348 ns/op	 854.48 MB/s
+Search_Easy0_UnCachedRE2/64K	   50000	     37957 ns/op	1726.57 MB/s
+Search_Easy0_UnCachedRE2/128K	   50000	     37931 ns/op	3455.48 MB/s
+Search_Easy0_UnCachedRE2/256K	   50000	     38013 ns/op	6896.07 MB/s
+Search_Easy0_UnCachedRE2/512K	   50000	     37692 ns/op	13909.47 MB/s
+Search_Easy0_UnCachedRE2/1M	   50000	     43506 ns/op	24101.78 MB/s
+Search_Easy0_UnCachedRE2/2M	   50000	     51172 ns/op	40982.01 MB/s
+Search_Easy0_UnCachedRE2/4M	   50000	     37855 ns/op	110797.81 MB/s
+Search_Easy0_UnCachedRE2/8M	   50000	     37656 ns/op	222767.70 MB/s
+Search_Easy0_UnCachedRE2/16M	   50000	     37756 ns/op	444354.49 MB/s
+Search_Easy1_CachedRE2/8	20000000	        98 ns/op	  81.05 MB/s
+Search_Easy1_CachedRE2/16	20000000	        99 ns/op	 161.52 MB/s
+Search_Easy1_CachedRE2/32	20000000	        94 ns/op	 337.53 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:35:43 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_UnCachedRE2/8	  100000	     22275 ns/op	   0.36 MB/s
+Search_Easy0_UnCachedRE2/16	  100000	     22082 ns/op	   0.72 MB/s
+Search_Easy0_UnCachedRE2/32	  100000	     22018 ns/op	   1.45 MB/s
+Search_Easy0_UnCachedRE2/64	  100000	     23357 ns/op	   2.74 MB/s
+Search_Easy0_UnCachedRE2/128	  100000	     21852 ns/op	   5.86 MB/s
+Search_Easy0_UnCachedRE2/256	  100000	     21573 ns/op	  11.87 MB/s
+Search_Easy0_UnCachedRE2/512	  100000	     21427 ns/op	  23.89 MB/s
+Search_Easy0_UnCachedRE2/1K	  100000	     21556 ns/op	  47.50 MB/s
+Search_Easy0_UnCachedRE2/2K	  100000	     21618 ns/op	  94.73 MB/s
+Search_Easy0_UnCachedRE2/4K	  100000	     21476 ns/op	 190.72 MB/s
+Search_Easy0_UnCachedRE2/8K	  100000	     21441 ns/op	 382.07 MB/s
+Search_Easy0_UnCachedRE2/16K	  100000	     21412 ns/op	 765.16 MB/s
+Search_Easy0_UnCachedRE2/32K	  100000	     21404 ns/op	1530.89 MB/s
+Search_Easy0_UnCachedRE2/64K	  100000	     21275 ns/op	3080.34 MB/s
+Search_Easy0_UnCachedRE2/128K	  100000	     21403 ns/op	6123.94 MB/s
+Search_Easy0_UnCachedRE2/256K	  100000	     21469 ns/op	12209.80 MB/s
+==BENCHMARK== macbook-air.home Tue Apr 13 11:43:51 CEST 2021
+# Darwin macbook-air.home 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+# Apple clang version 12.0.0 (clang-1200.0.32.29)
+# Target: x86_64-apple-darwin20.3.0
+# Thread model: posix
+# InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+# df73647
+# obj/test/regexp_benchmark: Mach-O 64-bit executable x86_64
+
+Search_Easy0_CachedRE2/8	20000000	        97 ns/op	  82.25 MB/s
+Search_Easy0_CachedRE2/16	20000000	        95 ns/op	 167.04 MB/s
+Search_Easy0_CachedRE2/32	20000000	        96 ns/op	 332.91 MB/s

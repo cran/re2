@@ -1,0 +1,45 @@
+Testing:
+
+We run all (google's) C++ tests available in re2 distribution (see
+tests in ../src/re2google/re2/testing) using R interface. We replace
+the C++ implentation (of re2.cc) to call R functions. We use RInside
+to embed an R instance inside C++ tests. We let C++ tests to call R
+functions which mimic the behaviour of corresponding C++ methods in
+re2.cc.
+
+The C++ -> R interface is provided by re2_R.[h|cc] files. These files
+look very similar to re2.[h|cc] files, except they call R functions
+through embedded R. Only once instance of embedded R is used for
+a suite of tests (executable file).
+
+To run tests, a symlink farm of the re2google folder will be created
+in this folder (see the Makefile). re2.[cc|h] are symlinked to
+re2_R.[cc|h]. This way we reuse the original Makefile
+(src/re2google/Makefile) to compile and run tests.
+
+Make sure RInside is intalled.
+
+To run all re2 C++ tests through R interface:
+> cd ../src/util && make test && cd -
+> make test
+
+You should see the following output:
+obj/test/charclass_test                 PASS
+obj/test/compile_test                   PASS
+obj/test/filtered_re2_test              PASS
+obj/test/mimics_pcre_test               PASS
+obj/test/parse_test                     PASS
+obj/test/possible_match_test            PASS
+obj/test/re2_test                       PASS
+obj/test/re2_arg_test                   PASS
+obj/test/regexp_test                    PASS
+obj/test/required_prefix_test           PASS
+obj/test/search_test                    PASS
+obj/test/set_test                       PASS
+obj/test/simplify_test                  PASS
+obj/test/string_generator_test          PASS
+ALL TESTS PASSED.
+
+These tests are not included in R CMD check, since they
+take a long time to compile and run, which is against
+the guidelines of R CMD check.
