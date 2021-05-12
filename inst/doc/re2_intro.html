@@ -207,7 +207,7 @@ hr {
 
 <h2>Overview</h2>
 
-<p>Pattern matching, extraction, replacement and other string processing operations are implemented using Google&#39;s <a href="https://github.com/google/re2">RE2</a> (C++) regular-expression library. The interface is consistent, and similar to <a href="https://github.com/tidyverse/stringr">stringr</a>.</p>
+<p>re2 package provides pattern matching, extraction, replacement and other string processing operations using Google&#39;s <a href="https://github.com/google/re2">RE2</a> (C++) regular-expression library. The interface is consistent, and similar to <a href="https://github.com/tidyverse/stringr">stringr</a>.</p>
 
 <p>Why re2?</p>
 
@@ -225,7 +225,10 @@ links to Russ Cox&#39;s excellent articles below.</p>
 
 <h2>Installation</h2>
 
-<pre><code class="r"># Install the development version from GitHub:
+<pre><code class="r"># Install the released version from CRAN:
+install.packages(&quot;re2&quot;)
+
+# Install the development version from GitHub:
 # install.packages(&quot;devtools&quot;)
 devtools::install_github(&quot;girishji/re2&quot;)
 </code></pre>

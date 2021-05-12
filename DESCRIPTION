@@ -1,7 +1,7 @@
 Package: re2
 Type: Package
 Title: R Interface to Google RE2 (C++) Regular Expression Library
-Version: 0.1.0
+Version: 0.1.1
 Date: 2021-04-30
 Author: Girish Palya [aut, cre],
 	RE2 developers [ctb] (RE2 library),
@@ -23,6 +23,6 @@ RoxygenNote: 7.1.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2021-05-02 13:47:56 UTC; gp
+Packaged: 2021-05-11 19:51:19 UTC; gp
 Repository: CRAN
-Date/Publication: 2021-05-03 08:00:08 UTC
+Date/Publication: 2021-05-12 23:00:12 UTC
