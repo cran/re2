@@ -380,7 +380,7 @@ re2_replace_all <- function(string, pattern, rewrite) {
 #'   \link{re2_syntax} for regular expression syntax, and
 #'   \code{\link{re2_match}} to extract matched groups.
 #'
-re2_split <- function(string, pattern, simplify = FALSE, n = Inf) {
+re2_split <- function(string, pattern, simplify=FALSE, n=Inf) {
     .Call(`_re2_re2_split`, string, pattern, simplify, n)
 }
 
