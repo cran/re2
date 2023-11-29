@@ -536,7 +536,7 @@ Zanabazar_Square \cr
 \\L \tab not lowercase (NOT SUPPORTED) VIM \cr
 \\u \tab uppercase (NOT SUPPORTED) VIM \cr
 \\U \tab not uppercase (NOT SUPPORTED) VIM \cr
-\\_x \tab \\x plus newline, for any x (NOT SUPPORTED) VIM \cr
+_x \tab \\x plus newline, for any x (NOT SUPPORTED) VIM \cr
 \\c \tab ignore case (NOT SUPPORTED) VIM \cr
 \\C \tab match case (NOT SUPPORTED) VIM \cr
 \\m \tab magic (NOT SUPPORTED) VIM \cr
