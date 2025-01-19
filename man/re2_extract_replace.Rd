@@ -12,6 +12,9 @@ re2_extract_replace(string, pattern, rewrite)
 \item{pattern}{Character string containing a regular expression,
  or a pre-compiled regular expression (or a vector of character
  strings and pre-compiled regular expressions). \cr
+ For \code{re2_replace_all} this can also be a named vector
+ \code{(c(pattern1 = rewrite1))}, in order to perform
+ multiple replacements in each element of string.\cr
 See \code{\link{re2_regexp}} for available options. \cr
 See \link{re2_syntax} for regular expression syntax. \cr}
 

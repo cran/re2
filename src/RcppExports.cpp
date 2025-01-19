@@ -278,27 +278,27 @@ BEGIN_RCPP
 END_RCPP
 }
 // re2_replace_all
-SEXP re2_replace_all(StringVector string, SEXP pattern, std::string& rewrite);
+SEXP re2_replace_all(StringVector string, SEXP pattern, const std::string& rewrite);
 RcppExport SEXP _re2_re2_replace_all(SEXP stringSEXP, SEXP patternSEXP, SEXP rewriteSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< StringVector >::type string(stringSEXP);
     Rcpp::traits::input_parameter< SEXP >::type pattern(patternSEXP);
-    Rcpp::traits::input_parameter< std::string& >::type rewrite(rewriteSEXP);
+    Rcpp::traits::input_parameter< const std::string& >::type rewrite(rewriteSEXP);
     rcpp_result_gen = Rcpp::wrap(re2_replace_all(string, pattern, rewrite));
     return rcpp_result_gen;
 END_RCPP
 }
 // re2_replace_all_cpp
-SEXP re2_replace_all_cpp(StringVector string, SEXP pattern, std::string& rewrite, bool count);
+SEXP re2_replace_all_cpp(StringVector string, SEXP pattern, const std::string& rewrite, bool count);
 RcppExport SEXP _re2_re2_replace_all_cpp(SEXP stringSEXP, SEXP patternSEXP, SEXP rewriteSEXP, SEXP countSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< StringVector >::type string(stringSEXP);
     Rcpp::traits::input_parameter< SEXP >::type pattern(patternSEXP);
-    Rcpp::traits::input_parameter< std::string& >::type rewrite(rewriteSEXP);
+    Rcpp::traits::input_parameter< const std::string& >::type rewrite(rewriteSEXP);
     Rcpp::traits::input_parameter< bool >::type count(countSEXP);
     rcpp_result_gen = Rcpp::wrap(re2_replace_all_cpp(string, pattern, rewrite, count));
     return rcpp_result_gen;

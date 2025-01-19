@@ -60,7 +60,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -441,7 +441,10 @@ pattern in string</li>
 matched patterns in string</li>
 </ul>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">re2_replace_all</span>(<span class="st">&quot;yabba dabba doo&quot;</span>, <span class="st">&quot;b+&quot;</span>, <span class="st">&quot;d&quot;</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="co">#&gt; [1] &quot;yada dada doo&quot;</span></span></code></pre></div>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="co">#&gt; [1] &quot;yada dada doo&quot;</span></span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="co"># Multiple replacements</span></span>
+<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a><span class="fu">re2_replace_all</span>(<span class="fu">c</span>(<span class="st">&quot;one&quot;</span>, <span class="st">&quot;two&quot;</span>), <span class="fu">c</span>(<span class="st">&quot;one&quot;</span> <span class="ot">=</span> <span class="st">&quot;1&quot;</span>, <span class="st">&quot;1&quot;</span> <span class="ot">=</span> <span class="st">&quot;2&quot;</span>, <span class="st">&quot;two&quot;</span> <span class="ot">=</span> <span class="st">&quot;2&quot;</span>))</span>
+<span id="cb11-5"><a href="#cb11-5" tabindex="-1"></a><span class="co">#&gt; [1] &quot;2&quot; &quot;2&quot;</span></span></code></pre></div>
 <ul>
 <li><code>re2_extract_replace(x, pattern, rewrite)</code> extracts and
 substitutes (ignores non-matching portions of x)</li>

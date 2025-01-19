@@ -7,7 +7,7 @@
 \usage{
 re2_replace(string, pattern, rewrite)
 
-re2_replace_all(string, pattern, rewrite)
+re2_replace_all(string, pattern, rewrite = "")
 }
 \arguments{
 \item{string}{A character vector, or an object which can be coerced to one.}
@@ -15,6 +15,9 @@ re2_replace_all(string, pattern, rewrite)
 \item{pattern}{Character string containing a regular expression,
  or a pre-compiled regular expression (or a vector of character
  strings and pre-compiled regular expressions). \cr
+ For \code{re2_replace_all} this can also be a named vector
+ \code{(c(pattern1 = rewrite1))}, in order to perform
+ multiple replacements in each element of string.\cr
 See \code{\link{re2_regexp}} for available options. \cr
 See \link{re2_syntax} for regular expression syntax. \cr}
 
@@ -35,9 +38,11 @@ A character vector with replacements.
 will result in "yada dabba doo". \cr
 
 \code{re2_replace_all} replaces successive non-overlapping occurrences of
-  "pattern" in "text" with "rewrite" string.
+  "pattern" in "text" with "rewrite" string, or performs multiple
+  replacements on each element of string.
 \preformatted{
   re2_replace_all("yabba dabba doo", "b+", "d")
+  re2_replace_all(c("one", "two"), c("one" = "1", "1" = "2", "two" = "2"))
 }
 will result in "yada dada doo". \cr
 Replacements are not subject to re-matching.

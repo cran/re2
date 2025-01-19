@@ -43,6 +43,8 @@ re2_replace("bunny@wunnies.pl", "(.*)@([^.]*)", "\\2!\\1")
 
 ## -----------------------------------------------------------------------------
 re2_replace_all("yabba dabba doo", "b+", "d")
+# Multiple replacements
+re2_replace_all(c("one", "two"), c("one" = "1", "1" = "2", "two" = "2"))
 
 ## -----------------------------------------------------------------------------
 re2_extract_replace("bunny@wunnies.pl", "(.*)@([^.]*)", "\\2!\\1")

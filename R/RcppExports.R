@@ -318,9 +318,11 @@ re2_regexp <- function(pattern, ...) {
 #' will result in "yada dabba doo". \cr
 #'
 #' \code{re2_replace_all} replaces successive non-overlapping occurrences of
-#'   "pattern" in "text" with "rewrite" string.
+#'   "pattern" in "text" with "rewrite" string, or performs multiple
+#'   replacements on each element of string.
 #' \preformatted{
 #'   re2_replace_all("yabba dabba doo", "b+", "d")
+#'   re2_replace_all(c("one", "two"), c("one" = "1", "1" = "2", "two" = "2"))
 #' }
 #' will result in "yada dada doo". \cr
 #' Replacements are not subject to re-matching.
@@ -331,6 +333,15 @@ re2_regexp <- function(pattern, ...) {
 #' Vectorized over string and pattern.
 #'
 #' @inheritParams re2_match
+#'
+#' @param pattern Character string containing a regular expression,
+#'    or a pre-compiled regular expression (or a vector of character
+#'    strings and pre-compiled regular expressions). \cr
+#'    For \code{re2_replace_all} this can also be a named vector
+#'    \code{(c(pattern1 = rewrite1))}, in order to perform
+#'    multiple replacements in each element of string.\cr
+#'   See \code{\link{re2_regexp}} for available options. \cr
+#'   See \link{re2_syntax} for regular expression syntax. \cr
 #'
 #' @param rewrite Rewrite string. Backslash-escaped
 #'   digits (\\1 to \\9) can be used to insert text matching
@@ -352,7 +363,7 @@ re2_replace <- function(string, pattern, rewrite) {
 }
 
 #' @rdname re2_replace
-re2_replace_all <- function(string, pattern, rewrite) {
+re2_replace_all <- function(string, pattern, rewrite = "") {
     .Call(`_re2_re2_replace_all`, string, pattern, rewrite)
 }
 
